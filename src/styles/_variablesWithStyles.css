@@ -1,0 +1,11 @@
+:root {
+	--white: #ffffff;
+	--primary: blue;
+	--secondary: yellow;
+	--border-radius: 8px;
+	--red: red;
+	--padding-y: 0.375rem;
+	--padding-x: 0.75rem;
+	--input-height: 35px;
+	--input-width: auto;
+}

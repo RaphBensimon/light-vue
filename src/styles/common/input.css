@@ -1,0 +1,30 @@
+input[type='text'],
+input[type='date'],
+input[type='password'],
+input[type='email'],
+input[type='tel'] {
+	border-radius: var(--border-radius);
+	border: 1px solid var(--light-grey);
+	padding: var(--padding-y) var(--padding-x);
+	height: var(--input-height);
+	width: var(--input-width);
+	color: var(--black);
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+input[type='text']:focus,
+input[type='date']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
+input[type='tel']:focus {
+	box-shadow: 0 0 0 0.2rem rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.25) !important;
+	border-color: var(--primary) !important;
+}
+input::placeholder {
+	color: var(--grey);
+}
+input[type='date']::placeholder {
+	text-transform: uppercase;
+}
+* {
+	color: red;
+}

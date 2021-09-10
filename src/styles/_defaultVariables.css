@@ -1,0 +1,11 @@
+:root {
+	--white: #ffffff;
+	--primary: #000000;
+	--secondary: #000000;
+	--border-radius: 0;
+	--red: #000000;
+	--padding-y: 0;
+	--padding-x: 0;
+	--input-height: initial;
+	--input-width: initial;
+}
