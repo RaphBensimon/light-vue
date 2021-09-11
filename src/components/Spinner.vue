@@ -11,14 +11,6 @@
 	border-radius: 50%;
 	animation: spinner-border 0.75s linear infinite;
 }
-.lv-spinner.white {
-	border: 0.25em solid var(--white-opacity-25);
-	border-bottom-color: var(--white);
-}
-.lv-spinner.primary {
-	border: 0.25em solid var(--primary-opacity-25);
-	border-bottom-color: var(--primary);
-}
 
 @keyframes spinner-border {
 	from {

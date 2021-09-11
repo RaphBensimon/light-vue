@@ -4,9 +4,9 @@ input[type='password'],
 input[type='email'],
 input[type='tel'] {
 	border-radius: var(--border-radius);
-	border: 1px solid var(--light-grey);
+	border: 1px solid var(--gray-light);
 	padding: var(--padding-y) var(--padding-x);
-	height: var(--input-height);
+	min-height: var(--input-height);
 	width: var(--input-width);
 	color: var(--black);
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
