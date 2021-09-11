@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router/router.js'
 import i18n from './translations/i18n.js'
 import './styles/_import.css'
+import './styles/_importWithStyles.css'
 import lightVue from './install'
 const app = createApp(App)
 

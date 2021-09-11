@@ -1,0 +1,61 @@
+button {
+	position: relative;
+	padding: var(--padding-y) var(--padding-x);
+	height: var(--input-height);
+	border-radius: var(--border-radius);
+	border: 2px solid transparent;
+	cursor: pointer;
+	font-weight: 600;
+	transition: var(--transition);
+	text-transform: uppercase;
+	width: fit-content;
+}
+button.icon-only {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	padding: 0;
+}
+button:hover,
+button:focus {
+	filter: brightness(0.95);
+}
+button:active {
+	filter: brightness(0.9);
+}
+button.primary {
+	background-color: var(--primary);
+	color: var(--white);
+}
+button.outline-primary {
+	background-color: var(--white);
+	color: var(--primary);
+	border: 2px solid var(--primary);
+}
+button.outline-primary:hover {
+	background-color: var(--primary);
+	color: var(--white);
+}
+button.alert {
+	background: var(--red);
+	color: var(--white);
+}
+button.grey {
+	background: var(--light-grey);
+	color: var(--black);
+}
+:deep(.lv-spinner) {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -0.75rem;
+	margin-top: -0.75rem;
+}
+button.loading .btn-content {
+	opacity: 0;
+	visibility: hidden;
+}
+button .btn-content {
+	display: flex;
+}

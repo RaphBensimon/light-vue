@@ -25,6 +25,3 @@ input::placeholder {
 input[type='date']::placeholder {
 	text-transform: uppercase;
 }
-* {
-	color: red;
-}
